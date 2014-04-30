@@ -1,0 +1,7 @@
+git clone http://git.linaro.org/landing-teams/working/samsung/u-boot.git -b tracking-arndale_octa
+
+cd u-boot
+make arndale_octa_config
+make
+
+

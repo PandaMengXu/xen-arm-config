@@ -1,0 +1,10 @@
+git clone git://git.insignal.co.kr/insignal/arndale_octa-jb_mr1.1/u-boot -b arndale_octa-jb_mr1.1
+
+cd u-boot
+make arndale_octa_config
+make
+
+* use only u-boot.bin
+
+
+
